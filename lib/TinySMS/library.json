@@ -1,0 +1,24 @@
+{
+  "name": "TinySMS",
+  "version": "1.0.1",
+  "description": "A simple SMS library for GSM modules with unicode support",
+  "keywords": "arduino, sms, sim800, sim900, modem, unicode, concatenated sms, multipart sms, esp32",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vahidtvj/TinySMS.git"
+  },
+  "authors": [
+    {
+      "name": "vahidtvj",
+      "url": "https://github.com/vahidtvj",
+      "maintainer": true
+    }
+  ],
+  "license": "LGPL-3.0",
+  "homepage": "https://github.com/vahidtvj/TinySMS",
+  "dependencies": {
+    "ivanseidel/LinkedList": "0.0.0-alpha+sha.dac3874d28"
+  },
+  "frameworks": ["arduino"],
+  "platforms": "*"
+}
