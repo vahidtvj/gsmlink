@@ -33,7 +33,6 @@ jobs:
         env:
           ENV: ${{ secrets.ENV }}
         run: |
-          mkdir include
           echo $ENV >> include/secrets.h
           echo "$ENV" | base64 --decode > include/secrets.h
 
