@@ -30,7 +30,7 @@ PlatformIO, [TinyGSM](https://github.com/vshymanskyy/TinyGSM),
 2. Get the TLS certificate bundle from https://curl.se/ca/cacert.pem
 3. Convert it: `python extras/gen_crt_bundle.py -i cacert.pem`
 4. Copy the result to `data/cert/x509_crt_bundle.bin`
-5. [Set your Telegram bot token and chat ID in ___]
+5. Create a secrets.h file in `include/` from the example
 6. Comment out the OTA code if you don't need it
 7. Flash the ESP
 
